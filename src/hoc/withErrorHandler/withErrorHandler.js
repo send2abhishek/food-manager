@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Aux from "../Auxilliary";
 import Modal from "../../components/Ui/Modal/Modal";
-import { render } from "@testing-library/react";
 const withErrorHandler = (WarraperComponent, axios) => {
   return class extends Component {
     state = {
